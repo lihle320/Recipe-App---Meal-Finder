@@ -93,3 +93,58 @@ Storage - 50MB free space
 
 Internet connection - Required for recipe search
 
+🚀 Installation & Setup
+Prerequisites
+Android Studio installed
+
+Java Development Kit (JDK) 11+
+
+Git for version control
+
+Building from Source
+Step 1: Clone the Repository
+bash
+git clone https://github.com/yourusername/recipe-app.git
+cd recipe-app
+Step 2: Open in Android Studio
+Open Android Studio
+
+Select "Open an Existing Project"
+
+Navigate to the cloned directory
+
+Wait for Gradle sync to complete
+
+Step 3: Configure Dependencies
+The app will automatically download required dependencies including:
+
+Retrofit 2.9.0
+
+Picasso 2.71828
+
+AndroidX libraries
+
+Step 4: Build and Run
+Connect an Android device or start an emulator
+
+Click "Run" → "Run 'app'"
+
+Select your target device
+
+Wait for installation and launch
+
+🔧 Configuration
+API Settings
+The app uses TheMealDB API by default. No API key required.
+
+Customization Options
+Modify colors in res/values/colors.xml
+
+Adjust layouts in respective XML files
+
+Change API endpoints in MainActivity.kt
+
+Build Variants
+Debug - Development version with logging
+
+Release - Optimized production version
